@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GAME_LOADER">com.ATSoft.androidgame.app.Levels.Helpers.GameLoader</string>
+    <string name="GameLoaderLayout">game_loader_resource</string>
+    <string name="START_SCREEN">com.ATSoft.androidgame.app.Levels.Helpers.StartScreen</string>
+    <string name="StartScreenLayout">start_screen_resource</string>
+    <string name="GAME_OPTIONS">com.ATSoft.androidgame.app.Levels.Helpers.GameOptions</string>
+    <string name="GameOptionLayout">game_option_layout</string>
+    <string name="PLAY">com.ATSoft.androidgame.app.Levels.GameLevels.Level1</string>
+    <string name="Level1Layout">game_level1_layout</string>
+    <string name="INSTRUCTIONS">com.ATSoft.androidgame.app.Levels.Helpers.HowToPlay</string>
+    <string name="InstructionsLayout">game_instructions_layout</string>
+    <string name="RESULTS">com.ATSoft.androidgame.app.Levels.Helpers.Results</string>
+    <string name="ResultLayout">game_result_layout</string>
+    <string name="CREDITS">com.ATSoft.androidgame.app.Levels.Helpers.Credits</string>
+    <string name="CreditsLayout">game_credits_layout</string>
+</resources>

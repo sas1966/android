@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level xmlns:android="http://schemas.android.com/apk/res/android">
+    <ClassName android:name="class_name">com.ATSoft.androidgame.app.Levels.Helpers.GameLoader</ClassName>
+    <Ratio android:name="ratio">16:9</Ratio>
+    <Background android:name="tiles">
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 0 1</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 0 1 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 0 1 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 0 1 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 0 1 0 0 0 0</Row>
+        <Row android:name="row_data">0 0 0 1 0 0 0 0 0</Row>
+    </Background>
+    <Background_drawable android:name="source">R.drawable.game_load_background</Background_drawable>
+    <Enemies>
+        <Enemy>
+            <CharachterClassName android:name="class_name">EnemyClass</CharachterClassName>
+            <Position android:name="position">outThere</Position>
+            <Animation android:name="animation">itWillHave</Animation>
+            <Sound_Idle android:name="sound_default">Mute</Sound_Idle>
+            <Sound_Active android:name="sound_activated">Scream</Sound_Active>
+        </Enemy>
+        <Enemy>
+            <CharachterClassName android:name="class_name">EnemyClass</CharachterClassName>
+            <Position android:name="position">outThere</Position>
+            <Animation android:name="animation">itWillHave</Animation>
+            <Sound_Idle android:name="sound_default">Mute</Sound_Idle>
+            <Sound_Active android:name="sound_activated">Scream</Sound_Active>
+        </Enemy>
+    </Enemies>
+    <Players>
+        <Player>
+            <CharachterClassName android:name="class_name">PlayerClass</CharachterClassName>
+            <Position android:name="position">hereClose</Position>
+            <Animation android:name="animation">itMayHave</Animation>
+            <Sound_Idle android:name="sound_default">strongGrumbling</Sound_Idle>
+            <Sound_Active android:name="sound_activated">Roaring</Sound_Active>
+            <Sound_Active android:name="sound_activated">Snoring</Sound_Active>
+            <Sound_Active android:name="sound_activated">Chowing</Sound_Active>
+        </Player>
+    </Players>
+</Level>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameShell</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="app_package">com.ATSoft.gameshell</string>
+
+    <string name="dummy_button">Options</string>
+    <string name="dummy_content">GAME\nFRAMEWORK</string>
+
+    <string name="action_go_back">Back</string>
+    <string name="action_go_in_circle">Circle</string>
+    <string name="action_go_forward">Forward</string>
+
+    <string name="title_activity_option">Options</string>
+    <string name="title_volume">Set music volume</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_music_source">Set music source</string>
+    <string name="title_effects_volume">Set effects volume</string>
+    <string name="radio_btn1_tex">Game music</string>
+    <string name="radio_btn2_text">Playlist</string>
+    <string name="radio_btn3_text">URL</string>
+    <string name="title_playlist_list">Playlists</string>
+    <string name="title_playlist_detail">Playlist Detail</string>
+</resources>
